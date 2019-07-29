@@ -1,0 +1,22 @@
+<html>
+  <body>
+    <h3>Fake news classifier</h3>
+
+<div>
+	<h4> Enter the article </h4>
+    <br>
+    <br>
+
+<form action="{{url_for('predict')}}" method="POST">
+
+    <textarea name="article", ID='article', rows = "5" cols = "50"
+	style="font-size:12pt;height:220px;width:360px;"></textarea>
+	
+    <br>    
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+  </body>
+</html>
