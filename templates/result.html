@@ -9,14 +9,12 @@
    <body>
 	
 	{% if prediction == 1%}
-	<p class = 'no_trust'>It is probably fake news, or opinion piece</p>
+	<p class = 'no_trust'>It is probably fake news, or an opinion piece</p>
 
 	{% elif prediction == 0%}
 	<p class = 'trust'>It is most likely a trustful article</p>
 
 	{% endif %}
-
-	<br>
 
 <button onclick="window.location.href = 'https://fake-news-clf.herokuapp.com/';">Test another article</button>
 
