@@ -9,10 +9,18 @@
    <body>
 	
 	{% if prediction == 1%}
-	<p class = 'no_trust'>It is probably fake news, or an opinion piece</p>
+
+	<p class = 'no_trust'>It is probably fake news, or an opinion piece.
+	<br>
+	<br> Probability of {{ proba }}
+	</p>
+
 
 	{% elif prediction == 0%}
-	<p class = 'trust'>It is most likely a trustful article</p>
+	<p class = 'trust'>It is most likely a trustful article
+	<br>
+	<br> Probability of {{ proba }}
+	</p>
 
 	{% endif %}
 
