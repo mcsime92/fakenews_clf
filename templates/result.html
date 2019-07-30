@@ -1,6 +1,12 @@
 <!doctype html>
 <html>
 
+<script>
+function goBack() {
+  window.history.back()
+}
+</script>
+
 <div class = "body_result">
 
 <div class = "result_border">
@@ -24,7 +30,7 @@
 
 	{% endif %}
 
-<button onclick="window.location.href = 'https://fake-news-clf.herokuapp.com/';">Test another article</button>
+<button onclick="goBack()">Test another article</button>
 
    </body>
 </div>
