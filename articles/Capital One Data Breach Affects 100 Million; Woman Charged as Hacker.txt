@@ -1,0 +1,74 @@
+Capital One Data Breach Affects 100 Million; Woman Charged as Hacker
+
+ImageThe breach at Capital One, which led to charges against a software engineer in Seattle, was one of the largest-ever thefts of bank data.
+The breach at Capital One, which led to charges against a software engineer in Seattle, was one of the largest-ever thefts of bank data.CreditCreditMark Lennihan/Associated Press
+By Emily Flitter and Karen Weise
+July 29, 2019
+
+49
+A software engineer in Seattle hacked into a server holding customer information for Capital One and obtained the personal data of over 100 million people, federal prosecutors said on Monday, in one of the largest thefts of data from a bank.
+
+The suspect, Paige Thompson, 33, left a trail online for investigators to follow as she boasted about the hacking, according to court documents in Seattle, where she was arrested and charged with one count of computer fraud and abuse.
+
+Ms. Thompson, who formerly worked for Amazon Web Services, which hosted the Capital One database that was breached, was not shy about her work as a hacker. She is listed as the organizer of a group on Meetup, a social network, called Seattle Warez Kiddies, described as a gathering for “anybody with an appreciation for distributed systems, programming, hacking, cracking.”
+
+The F.B.I. noticed her activity on Meetup and used it to trace her other online activities, eventually linking her to posts describing the data theft on Twitter and the Slack messaging service.
+
+Subscribe to With Interest
+Catch up and prep for the week ahead with this newsletter of the most important business insights, delivered Sundays.
+
+SIGN UP
+“I’ve basically strapped myself with a bomb vest,” Ms. Thompson wrote in a Slack post, according to prosecutors, “dropping capital ones dox and admitting it.”
+
+Online, she used the name “erratic,” investigators said, adding that they verified her identity after she posted a photograph of an invoice she had received from a veterinarian caring for one of her pets.
+
+According to court papers and Capital One, Ms. Thompson stole 140,000 Social Security numbers and 80,000 bank account numbers in the breach.
+
+In addition to the tens of millions of credit card applications stolen, the company said on Monday, the breach compromised one million Canadian social insurance numbers — the equivalent of Social Security numbers for Americans.
+
+The information came from credit card applications that consumers and small businesses had submitted as early as 2005 and as recently as 2019, according to Capital One, which is the nation’s third-largest credit card issuer, according to its website.
+
+Editors’ Picks
+
+‘It’s Like Watching New York Melt’: As Towers Rise, an Old Neighborhood Fades
+
+For Years, Alcohol Was My Only Comfort. Then It Nearly Killed Me.
+
+Lester Holt, NBC News Anchor, Moonlights as a Rocker
+“Based on our analysis to date,” the bank said in a statement, “we believe it is unlikely that the information was used for fraud or disseminated by this individual.”
+
+The bank also said it expected that the breach would cost it up to $150 million, including paying for credit monitoring for affected customers. Last week, the credit bureau Equifax settled claims from a 2017 data breach that exposed sensitive information on over 147 million consumers, costing it about $650 million.
+
+Amazon Web Services hosts the remote data servers that companies use to store their information, but large enterprises like Capital One build their own web applications on top of Amazon’s cloud data so they can use the information in ways specific to their needs.
+
+The F.B.I. agent who investigated the breach said in court papers that Ms. Thompson had gained access to the sensitive data through a “misconfiguration” of a firewall on a web application. That allowed the hacker to communicate with the server where Capital One was storing its information and, eventually, obtain customer files.
+
+Amazon said its customers fully controlled the applications they built, and Capitol One said in a news release that it had “immediately fixed the configuration vulnerability” once it discovered the problem. Amazon said it had found no evidence that its underlying cloud services were compromised.
+
+On July 17, a tipster wrote to a Capital One security hotline, warning that some of the bank’s data appeared to have been “leaked,” the criminal complaint said.
+
+Once alerted to the breach, the authorities found what they said were Ms. Thompson’s online boasts that she wanted to “distribute” the materials. On June 27, she also listed “several companies, government entities and educational institutions,” according to court papers, which investigators interpreted to be other hacks she “may have committed.”
+
+Other users in that channel, on Slack, expressed alarm. One said “don’t go to jail plz,” according to the complaint.
+
+On Monday, F.B.I. agents executed a search warrant on Ms. Thompson’s house. They seized “numerous digital devices,” prosecutors said, and found on them “items that referenced Capital One” and Amazon, which they referred to in the complaint only as the “cloud computing company.”
+
+“I am deeply sorry for what has happened,” the bank’s chief executive, Richard D. Fairbank, said in a statement. “I sincerely apologize for the understandable worry this incident must be causing those affected, and I am committed to making it right.”
+
+Capital One said the bank account numbers were linked to customers with “secured” credit cards. Secured cards require customers to put forth a sum of money — $200 or $250 — in exchange for a card.
+
+“It’s a way for banks to minimize the risk associated with lending to folks who don’t have perfect credit or who are just getting started,” said Matt Schulz, an analyst for Compare Cards. These customers are vulnerable, he said, and “often have very little financial margin for error.”
+
+While the breach was possible because of a security lapse by Capital One, it was aided by Ms. Thompson’s expertise. Information posted on social media shows she worked at one time for Amazon, as an engineer for the same server business that court papers said Capital One was using.
+
+Capital One is a longstanding and prominent client of Amazon’s. In a 2015 keynote at Amazon Web Services’ main annual conference, a Capital One executive gave a presentation on the company’s efforts to move critical parts of its technology to Amazon’s cloud infrastructure so it could focus on building consumer applications and other needs.
+
+Ms. Thompson will remain in federal custody until a hearing on Thursday, prosecutors said. Her lawyer did not respond to an email seeking comment.
+
+Capital One has faced security breaches before, and they are a constant, and costly, threat for the financial industry. The chief of JPMorgan Chase, Jamie Dimon, has said his bank spends almost $600 million a year on security. Bank of America’s chief has said in the past that the bank has a “blank check” for cybersecurity.
+
+In a breach in 2017, Capital One notified customers that a former employee may have had access for nearly four months to their personal data, including account numbers, telephone numbers, transaction history and Social Security numbers. The company reported a similar breach involving an employee in 2014.
+
+On Meetup, Ms. Thompson posted enthusiastically about hacking. “I’ve been meaning to put together something like a hack night or somethng soon,” she wrote on May 13.
+
+“It’s been a crazy past two weeks, and my cat had to go to the vet everyday last week but she’s finally starting to recover maybe this wednesday in capitol hill? I’ll do an all day thing at starbucks until they close, I’e got nothing better to do.”

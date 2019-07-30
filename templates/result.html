@@ -1,13 +1,18 @@
 <!doctype html>
 <html>
-<h2> Result </h2>
-   <body>
 
+<div class = "body_result">
+
+<div class = "result_border">
+
+<h2><p class = borderexample> Result </p></h2>
+   <body>
+	
 	{% if prediction == 1%}
-	<h3>It is probably fake news, or opinion piece</h3>
+	<p class = 'no_trust'>It is probably fake news, or opinion piece</p>
 
 	{% elif prediction == 0%}
-	<h3>It is most likely a trustful article</h3>
+	<p class = 'trust'>It is most likely a trustful article</p>
 
 	{% endif %}
 
@@ -16,4 +21,53 @@
 <button onclick="window.location.href = 'https://fake-news-clf.herokuapp.com/';">Test another article</button>
 
    </body>
+</div>
+</div>
 </html>
+
+<style type="text/css">
+	
+	.trust {
+	color:#9ACD32;
+	font-weight:bold;
+	}
+	
+	.result_border {
+	border-radius: 20px;
+	margin:5px ;
+	border-style:solid;
+	border-width: thin;
+	display: inline-block;
+	border-color:#D3D3D3;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:8px;
+	}
+	
+	.borderexample {
+	border-style:solid;
+	border-radius: 10px;
+	border-color:#287EC7;
+	width: 360px;
+	background:#287EC7;
+	color: white;
+	font-family: 'Helvetica Neue', sans-serif;
+	text-align: center;
+	font-weight: normal;
+	font-size: 30px;
+	margin: 0 auto;
+	}
+	
+	.no_trust {
+	color: red;
+	font-weight:bold;
+	}
+	
+	.body_result {
+	text-align: center;
+	font-weight: normal;
+	margin: 0 auto;
+	
+	}
+	
+</style>
