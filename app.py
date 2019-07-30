@@ -2,6 +2,7 @@ from flask import Flask, render_template, url_for, request
 import pandas as pd
 import pickle
 import re
+import numpy as np
 import os
 
 app = Flask(__name__)
@@ -40,7 +41,14 @@ def predict():
 
         prediction_array = model.predict(vect)
 
-    return render_template('result.html', prediction=prediction_array)
+        proba_array = model.predict_proba(vect)
+
+        maxProba = np.amax(proba_array)
+        maxProba = format(maxProba, ".2%")
+
+        print(maxProba)
+
+    return render_template('result.html', prediction=prediction_array, proba = maxProba)
 
 
 if __name__ == '__main__':
