@@ -1,20 +1,19 @@
 <!doctype html>
 <html>
-<h3> Result </h3>
-<br>
-
-
+<h2> Result </h2>
    <body>
 
-{% if prediction == 1%}
-<h2>It is probably fake news, or opinion piece</h2>
+	{% if prediction == 1%}
+	<h3>It is probably fake news, or opinion piece</h3>
 
-{% elif prediction == 0%}
-<h2>It is most likely a trustful article</h2>
+	{% elif prediction == 0%}
+	<h3>It is most likely a trustful article</h3>
 
-{% endif %}
+	{% endif %}
 
-<br>
+	<br>
+
+<button onclick="window.location.href = 'https://fake-news-clf.herokuapp.com/';">Test another article</button>
 
    </body>
 </html>
