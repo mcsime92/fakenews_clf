@@ -1,22 +1,26 @@
 <html>
   <body>
-    <h3>Fake news classifier</h3>
+    <h2>Fake news classifier</h2>
+	<h3>Is it fake news/piece of opinion or a trustful article? </h3>
 
-<div>
-	<h4> Enter the article </h4>
-    <br>
-    <br>
 
 <form action="{{url_for('predict')}}" method="POST">
-
+	<h4> Enter the article </h4>
     <textarea name="article", ID='article', rows = "5" cols = "50"
-	style="font-size:12pt;height:220px;width:360px;"></textarea>
-	
-    <br>    
+	style="font-size:12pt;height:220px;width:360px;"></textarea>  
     <br>
+	<br>
     <input type="submit" value="Submit">
-  </form>
-</div>
+</form>
 
   </body>
 </html>
+
+<style type="text/css">
+	form { 
+	margin: 0 auto; 
+	width:250px;
+	}
+</style>
+
+
