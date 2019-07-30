@@ -29,6 +29,10 @@ def predict():
     if request.method == 'POST':
         comment = request.form['article']
         list_comment = [comment]
+        #list_comment = [comment]
+
+        list_comment = clean_article(comment)
+        list_comment = [comment]
         vect = bow.transform(list_comment)
 
         vect = pd.DataFrame(vect.toarray())
@@ -41,5 +45,5 @@ def predict():
 
 if __name__ == '__main__':
     app.run(debug=True)
-    bow = pickle.load(open("bow.pkl", "rb"))
-    model = pickle.load(open("model.pkl", "rb"))
+    #bow = pickle.load(open("bow.pkl", "rb"))
+    #model = pickle.load(open("model.pkl", "rb"))
