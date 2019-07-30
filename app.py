@@ -39,8 +39,14 @@ def predict():
         vect.columns = bow.get_feature_names()
 
         prediction_array = model.predict(vect)
+        proba_array = model.predict_proba(vect)
 
-    return render_template('result.html', prediction=prediction_array)
+        maxProba = np.amax(proba_array)
+        maxProba = format(maxProba, ".2%")
+
+        print(maxProba)
+
+    return render_template('result.html', prediction=prediction_array, proba = maxProba)
 
 
 if __name__ == '__main__':
