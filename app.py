@@ -31,8 +31,8 @@ def predict():
         comment = request.form['article']
         list_comment = [comment]
 
-        list_comment = clean_article(comment)
-        list_comment = [comment]
+        list_comment = clean_article(list_comment)
+        list_comment = [list_comment]
         vect = bow.transform(list_comment)
 
         vect = pd.DataFrame(vect.toarray())
