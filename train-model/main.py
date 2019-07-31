@@ -28,8 +28,7 @@ np.random.seed(18)
 ### 1. Basic data preparation and first classifier
 
 # Import dataset
-df1 = pd.read_csv(
-    r'C:\Users\A747043\Desktop\My documents\Python\Python37\PyCharm Projects\fake_news\detect-fake-news\train.csv')
+df1 = pd.read_csv('<REPLACE BY FILEPATH>')
 
 # Eyeball dataset, decision to select only columns "text" and "label"
 # print(df1.head())

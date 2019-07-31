@@ -30,7 +30,6 @@ def predict():
     if request.method == 'POST':
         comment = request.form['article']
         list_comment = [comment]
-        #list_comment = [comment]
 
         list_comment = clean_article(comment)
         list_comment = [comment]
