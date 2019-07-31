@@ -50,6 +50,8 @@ def predict():
     return render_template('result.html', prediction=prediction_array, proba = maxProba)
 
 
+
+
 if __name__ == '__main__':
     app.run(debug=True)
     #bow = pickle.load(open("bow.pkl", "rb"))
